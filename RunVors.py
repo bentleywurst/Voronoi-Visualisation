@@ -5,6 +5,7 @@ from os.path import exists
 from os import makedirs
 
 
+
 def CreateVid(name, **kwargs):
     # defaults to all frames starting at first frame
     FrameNum = 0
