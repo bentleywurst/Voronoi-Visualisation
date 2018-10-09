@@ -5,9 +5,9 @@ from os.path import exists
 from os import makedirs
 
 def CreateVid(name, **kwargs):
-    # defaults to 100 frames starting at first frame
+    # defaults to all frames starting at first frame
     FrameNum = 0
-    Frames = 100
+    Frames = 0
 
     if 'frame1' in kwargs.keys():
         FrameNum = kwargs['frame1']
